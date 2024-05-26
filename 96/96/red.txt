@@ -1,0 +1,10 @@
+iptables -F
+iptables -X
+iptables -t nat -A PREROUTING  -d 203.72.64.246 -p tcp \
+--dport 80 -j DNAT --to 10.0.0.249
+iptables -t nat -A POSTROUTING  -d 10.0.0.249 -p tcp --dport 80 -j SNAT \
+--to 10.0.0.101
+#iptables -A FORWARD -o eth1 -d 10.0.0.249 -p tcp --dport 80 -j ACCEPT
+#iptables -A FORWARD -i eth1 -s 10.0.0.249 -p tcp --sport 80 -m state \
+#--state ESTABLISHED -j ACCEPT
+

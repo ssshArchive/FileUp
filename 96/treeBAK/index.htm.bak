@@ -1,0 +1,13 @@
+<HTML> 
+<head>
+<title>虛擬教室－教材文件區</title>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+</head>
+
+
+<FRAMESET framespacing="1" frameborder="1" COLS="150,*"> 
+  <FRAME SRC="menu.html" NAME="treeframe" rezise> 
+  <FRAME SRC="content.html" NAME="main_frame"> 
+</FRAMESET> 
+
+</HTML> 

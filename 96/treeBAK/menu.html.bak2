@@ -1,0 +1,21 @@
+<HTML>
+
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=big5">
+<LINK REL="stylesheet" HREF="Visualtreestyle.css">
+<SCRIPT SRC="Visualtree.js"></SCRIPT>
+<script language="JavaScript">
+function CloseClicked()
+{
+  window.returnValue = "";
+  window.close()
+}
+</script>
+</HEAD>
+<BODY  bgcolor="#F5E6EB" text="#CC00CC">
+<SCRIPT>
+initializeDocument()
+</SCRIPT>
+
+</BODY>
+</HTML>

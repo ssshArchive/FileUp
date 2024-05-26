@@ -1,0 +1,15 @@
+<HTML>
+
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=big5">
+<LINK REL="stylesheet" HREF="Visualtreestyle.css">
+<SCRIPT SRC="Visualtree.js"></SCRIPT>
+</HEAD>
+
+<BODY >
+<SCRIPT>
+initializeDocument()
+</SCRIPT>
+</BODY>
+
+</HTML>

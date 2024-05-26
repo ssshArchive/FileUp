@@ -1,0 +1,33 @@
+BODY {background-color:#F5E6EB;
+      color: #CC00CC;   }
+.title {
+    color:#CC00CC;
+    font-size:22pt;
+     font-family: 標楷體, 細明體;
+    
+    }
+    
+    .filtertitle {
+    font-family: 新細明體, 細明體;
+	
+	font-size: 12pt;
+	font-weight: normal;
+	line-height: 11pt;
+    font-size: 23pt;
+         FILTER:Shadow(Color=black,direction=135);height:30 ; }
+A:link {
+font-family: 細明體;
+color: #FF33CC;
+font-size:11pt;
+text-decoration: none; }
+
+A:visited {
+font-family: 細明體;
+font-size:11pt;
+text-decoration: none; color: #FF33CC;}
+A:hover {
+   color: #9966ff;
+font-family:細明體;
+font-size:11pt;
+text-decoration: none; }
+TD {color: #CC00CC}
